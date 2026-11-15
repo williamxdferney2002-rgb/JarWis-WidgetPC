@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-alert-dismiss"
+description = "Enables the alert_dismiss command without any pre-configured scope."
+commands.allow = ["alert_dismiss"]
+
+[[permission]]
+identifier = "deny-alert-dismiss"
+description = "Denies the alert_dismiss command without any pre-configured scope."
+commands.deny = ["alert_dismiss"]

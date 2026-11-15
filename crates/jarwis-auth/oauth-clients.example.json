@@ -1,0 +1,9 @@
+{
+  "google": {
+    "client_id": "000000000000-ejemplo.apps.googleusercontent.com",
+    "client_secret": "GOCSPX-valor-ficticio"
+  },
+  "microsoft": {
+    "client_id": "00000000-0000-0000-0000-000000000000"
+  }
+}

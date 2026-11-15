@@ -1,0 +1,11 @@
+[workspace]
+members = ["crates/jarwis-auth", "src-tauri"]
+resolver = "2"
+
+# Binario pequeño para la barra (prioridad: bajo consumo).
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = "s"
+strip = true
+panic = "abort"

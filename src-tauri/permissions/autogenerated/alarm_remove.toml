@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-alarm-remove"
+description = "Enables the alarm_remove command without any pre-configured scope."
+commands.allow = ["alarm_remove"]
+
+[[permission]]
+identifier = "deny-alarm-remove"
+description = "Denies the alarm_remove command without any pre-configured scope."
+commands.deny = ["alarm_remove"]

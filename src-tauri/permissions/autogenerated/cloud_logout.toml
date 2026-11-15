@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-cloud-logout"
+description = "Enables the cloud_logout command without any pre-configured scope."
+commands.allow = ["cloud_logout"]
+
+[[permission]]
+identifier = "deny-cloud-logout"
+description = "Denies the cloud_logout command without any pre-configured scope."
+commands.deny = ["cloud_logout"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-cloud-month"
+description = "Enables the cloud_month command without any pre-configured scope."
+commands.allow = ["cloud_month"]
+
+[[permission]]
+identifier = "deny-cloud-month"
+description = "Denies the cloud_month command without any pre-configured scope."
+commands.deny = ["cloud_month"]

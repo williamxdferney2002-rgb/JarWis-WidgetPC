@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-set-minimized"
+description = "Enables the set_minimized command without any pre-configured scope."
+commands.allow = ["set_minimized"]
+
+[[permission]]
+identifier = "deny-set-minimized"
+description = "Denies the set_minimized command without any pre-configured scope."
+commands.deny = ["set_minimized"]

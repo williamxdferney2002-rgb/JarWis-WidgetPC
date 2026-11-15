@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-cloud-agenda"
+description = "Enables the cloud_agenda command without any pre-configured scope."
+commands.allow = ["cloud_agenda"]
+
+[[permission]]
+identifier = "deny-cloud-agenda"
+description = "Denies the cloud_agenda command without any pre-configured scope."
+commands.deny = ["cloud_agenda"]

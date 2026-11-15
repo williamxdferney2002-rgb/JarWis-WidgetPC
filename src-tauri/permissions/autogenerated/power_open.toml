@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-power-open"
+description = "Enables the power_open command without any pre-configured scope."
+commands.allow = ["power_open"]
+
+[[permission]]
+identifier = "deny-power-open"
+description = "Denies the power_open command without any pre-configured scope."
+commands.deny = ["power_open"]

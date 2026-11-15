@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-timer-add"
+description = "Enables the timer_add command without any pre-configured scope."
+commands.allow = ["timer_add"]
+
+[[permission]]
+identifier = "deny-timer-add"
+description = "Denies the timer_add command without any pre-configured scope."
+commands.deny = ["timer_add"]

@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-bar-track"
+description = "Enables the bar_track command without any pre-configured scope."
+commands.allow = ["bar_track"]
+
+[[permission]]
+identifier = "deny-bar-track"
+description = "Denies the bar_track command without any pre-configured scope."
+commands.deny = ["bar_track"]

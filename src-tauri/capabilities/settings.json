@@ -1,0 +1,24 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "settings",
+  "description": "Ventana de Ajustes: ajustes, monitores y estado de atajos/inicio automático, editar accesos rápidos (validados en el núcleo), listar apps de Microsoft Store, cerrarse a sí misma y conectar/desconectar Google (estado sin red, login en el navegador del sistema) y editar los espacios de trabajo (validados en el núcleo).",
+  "windows": ["settings"],
+  "permissions": [
+    "core:event:allow-listen",
+    "core:event:allow-unlisten",
+    "allow-weather-search",
+    "allow-get-settings",
+    "allow-patch-settings",
+    "allow-widget-move",
+    "allow-list-monitors",
+    "allow-get-status",
+    "allow-get-shortcuts",
+    "allow-set-shortcuts",
+    "allow-list-store-apps",
+    "allow-cloud-status",
+    "allow-cloud-login",
+    "allow-cloud-logout",
+    "allow-set-workspaces",
+    "core:window:allow-close"
+  ]
+}

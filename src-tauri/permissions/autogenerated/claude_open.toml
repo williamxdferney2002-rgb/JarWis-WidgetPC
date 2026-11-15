@@ -1,0 +1,11 @@
+# Automatically generated - DO NOT EDIT!
+
+[[permission]]
+identifier = "allow-claude-open"
+description = "Enables the claude_open command without any pre-configured scope."
+commands.allow = ["claude_open"]
+
+[[permission]]
+identifier = "deny-claude-open"
+description = "Denies the claude_open command without any pre-configured scope."
+commands.deny = ["claude_open"]
